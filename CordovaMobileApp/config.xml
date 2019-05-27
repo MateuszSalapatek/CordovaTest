@@ -16,6 +16,7 @@
     <access origin="https://*.gstatic.com" />
     <access origin="https://*.googlevideo.com" />
     <access origin="https://*.google.com" />
+    <access origin="https://*.googleapis.com" />
 
     <preference name="AllowInlineMediaPlayback" value="true" />
     <preference name="MediaPlaybackRequiresUserAction" value="false" />  
