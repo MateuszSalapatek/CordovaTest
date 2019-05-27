@@ -9,10 +9,22 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <access origin="https://*.youtube-nocookie.com" />
+    <access origin="https://*.youtube.com" />
+    <access origin="https://*.ytimg.com" />
+    <access origin="https://*.gstatic.com" />
+    <access origin="https://*.googlevideo.com" />
+    <access origin="https://*.google.com" />
+    <access origin="https://*.googleapis.com" />
+    <allow-navigation href="*youtube*" />
+    <allow-navigation href="*ytimg*" />
+    <allow-navigation href="*youtube-nocookie*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
 </widget>

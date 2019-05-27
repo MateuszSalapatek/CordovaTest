@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.acme.app"
+    },
+    "cordova-plugin-device-motion": {
+      "PACKAGE_NAME": "com.acme.app"
     }
   },
   "dependent_plugins": {}
